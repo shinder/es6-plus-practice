@@ -1,0 +1,20 @@
+{
+  "name": "es6-plus-practice",
+  "version": "1.0.0",
+  "description": "教學專案",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinder/es6-plus-practice.git"
+  },
+  "keywords": [],
+  "author": "Shinder Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinder/es6-plus-practice/issues"
+  },
+  "homepage": "https://github.com/shinder/es6-plus-practice#readme"
+}
