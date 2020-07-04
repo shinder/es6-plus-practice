@@ -1,4 +1,4 @@
 let f = name=>{
-    console.log(`hello ${name}`);
+    document.querySelector('#info').innerHTML = `hello ${name}`;
 };
 f('bill');
