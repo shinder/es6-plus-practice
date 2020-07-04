@@ -4,6 +4,7 @@
   "description": "教學專案",
   "main": "",
   "scripts": {
+    "transpile": "npx babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/shinder/es6-plus-practice/issues"
   },
-  "homepage": "https://github.com/shinder/es6-plus-practice#readme"
+  "homepage": "https://github.com/shinder/es6-plus-practice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  }
 }
