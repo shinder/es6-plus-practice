@@ -118,5 +118,24 @@ f('bill');
 
 13. 執行 npx webpack 即可看到轉譯好的 build/bundle.js。以瀏覽器開啟 build/index.html 可看到執行結果。
 
+14. 安裝 webpack-dev-server
+```bash
+npm i -D webpack-dev-server
+```
 
+15. webpack.config.js 加入設定
+```js
+devServer: {
+    contentBase: path.join(__dirname, 'build'),
+    compress: true,
+    port: 9000
+}
+```
 
+16. 在 package.json 檔裡的 scripts 設定
+
+```json
+{ "dev": "npx webpack-dev-server" }
+```
+
+17. 執行 npm run dev 即可啟動開發環境。
