@@ -1,4 +1,1 @@
-let f = name=>{
-    document.querySelector('#info').innerHTML = `hello ${name}`;
-};
-f('bill');
+import myProxy from './my-proxy';
