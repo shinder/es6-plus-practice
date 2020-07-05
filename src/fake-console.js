@@ -4,11 +4,11 @@ if(document && document.querySelector && document.querySelector('#info')){
 }
 
 export default {
-    log: function(msg){
+    log: function(...msg){
         if(info){
-            info.innerHTML += msg +'<br>';
+            info.innerHTML += msg.join(' ') +'<br>';
         } else {
-            console.log(msg);
+            console.log(...msg);
         }
     }
 }
