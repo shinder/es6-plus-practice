@@ -8,4 +8,5 @@
 // import './my-import02';
 // import './my-promise01';
 // import './my-promise02';
-import './my-async-await';
+// import './my-async-await';
+import './my-class01';
