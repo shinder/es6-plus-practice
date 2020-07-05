@@ -5,4 +5,6 @@
 // import myArrayMethods from './my-array-methods';
 // import myMapSet from './my-map-set';
 // import myImport01 from './my-import01';
-import myImport02 from './my-import02';
+// import myImport02 from './my-import02';
+// import myPromise01 from './my-promise01';
+import myPromise02 from './my-promise02';
