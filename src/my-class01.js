@@ -11,10 +11,9 @@ class Person {
         return `${this.name} ${this.age} ${this.gender}`;
     }
 }
+export default Person;
 
 console.log(new Person);
-const p2 = new Person('David', 26, 'male');
+const p2 = new Person('Flora', 23, 'female');
 console.log(p2);
-const p3 = new Person('Flora', 23, 'female');
-console.log(p3);
-
+console.log(p2.constructor.name);
