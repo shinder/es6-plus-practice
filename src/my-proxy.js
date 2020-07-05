@@ -29,5 +29,3 @@ try{
     console.log( error );
 }
 console.log( JSON.stringify(proxy) );
-export default proxy;
-
