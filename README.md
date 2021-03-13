@@ -135,7 +135,7 @@ devServer: {
 16. 在 package.json 檔裡的 scripts 設定
 
 ```json
-{ "dev": "npx webpack-dev-server" }
+{ "dev": "webpack serve" }
 ```
 
 17. 執行 npm run dev 即可啟動開發環境。
